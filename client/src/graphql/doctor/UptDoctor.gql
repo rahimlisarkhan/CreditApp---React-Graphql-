@@ -1,0 +1,19 @@
+mutation UpdateDoctor(
+  $updateDoctorId: ID!
+  $name: String!
+  $surname: String!
+  $imgUrl: String!
+  $raiting: Int!
+  $description: String!
+  $activePassient: Int!
+) {
+  updateDoctor(
+    id: $updateDoctorId
+    name: $name
+    surname: $surname
+    img_url: $imgUrl
+    raiting: $raiting
+    description: $description
+    active_passient: $activePassient
+  )
+}

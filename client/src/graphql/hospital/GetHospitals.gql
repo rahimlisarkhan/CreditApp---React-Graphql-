@@ -1,0 +1,10 @@
+query Query {
+  getHospitals {
+    id
+    name
+    img_url
+    raiting
+    description
+    address
+  }
+}

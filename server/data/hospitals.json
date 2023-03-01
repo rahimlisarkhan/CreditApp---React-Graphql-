@@ -1,0 +1,18 @@
+[
+  {
+    "id": "123114",
+    "name": "Turan Click",
+    "img_url": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xpbmljfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+    "raiting": 7.8,
+    "description": "Lorem ipsum write line",
+    "address": "M.Saranova street Xetai Baku Azerbaijan"
+  },
+  {
+    "id": "122",
+    "name": "Ege Hospital",
+    "img_url": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xpbmljfGVufDB8fDB8fA%3D%3D&w=1000&q=80",
+    "raiting": 8.8,
+    "description": "Lorem ipsum write line",
+    "address": "Nizami street Nasimi Baku Azerbaijan"
+  }
+]

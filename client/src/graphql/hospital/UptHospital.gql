@@ -1,0 +1,24 @@
+mutation Mutation(
+  $updateHospitalId: ID!
+  $name: String!
+  $imgUrl: String!
+  $description: String!
+  $address: Int!
+  $raiting: Int
+) {
+  updateHospital(
+    id: $updateHospitalId
+    name: $name
+    img_url: $imgUrl
+    description: $description
+    address: $address
+    raiting: $raiting
+  ) {
+    id
+    name
+    img_url
+    raiting
+    description
+    address
+  }
+}

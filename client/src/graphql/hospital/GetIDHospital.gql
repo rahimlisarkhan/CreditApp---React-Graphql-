@@ -1,0 +1,10 @@
+query Query($getHospitalId: ID!) {
+  getHospital(id: $getHospitalId) {
+    id
+    name
+    img_url
+    raiting
+    description
+    address
+  }
+}

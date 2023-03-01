@@ -1,0 +1,3 @@
+mutation DeleteDoctor($deleteDoctorId: Int) {
+  deleteDoctor(id: $deleteDoctorId)
+}

@@ -1,0 +1,11 @@
+query Query($getDoctorId: ID!) {
+  getDoctor(id: $getDoctorId) {
+    id
+    name
+    surname
+    img_url
+    raiting
+    description
+    active_passient
+  }
+}

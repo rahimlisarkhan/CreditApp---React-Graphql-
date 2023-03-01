@@ -1,0 +1,15 @@
+mutation Mutation(
+  $name: String!
+  $imgUrl: String!
+  $description: String!
+  $address: String!
+  $raiting: Int
+) {
+  createHospital(
+    name: $name
+    img_url: $imgUrl
+    description: $description
+    address: $address
+    raiting: $raiting
+  )
+}
